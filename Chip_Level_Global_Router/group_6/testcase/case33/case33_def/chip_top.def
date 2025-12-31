@@ -1,0 +1,54 @@
+VERSION 5.7 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+
+DESIGN chip_top ;
+
+UNITS DISTANCE MICRONS 1 ;
+DIEAREA ( 0 0 ) ( 150 150 ) ;
+
+COMPONENTS 33 ;
+- BLOCK_0 blk_0 + PLACED ( 1 1 ) N ;
+- BLOCK_1 blk_1 + PLACED ( 15 1 ) N ;
+- BLOCK_2 blk_2 + PLACED ( 2 20 ) N ;
+- BLOCK_3 blk_3 + PLACED ( 35 35 ) N ;
+- BLOCK_4 blk_4 + PLACED ( 15 45 ) N ;
+- BLOCK_5 blk_5 + PLACED ( 5 44 ) N ;
+- BLOCK_6 blk_6 + PLACED ( 1 66 ) N ;
+- BLOCK_7 blk_7 + PLACED ( 50 10 ) N ;
+- BLOCK_8 blk_8 + PLACED ( 27 100 ) N ;
+- BLOCK_9 blk_9 + PLACED ( 35 18 ) N ;
+- BLOCK_10 blk_10 + PLACED ( 45 100 ) N ;
+- BLOCK_11 blk_11 + PLACED ( 45 115 ) N ;
+- BLOCK_12 blk_12 + PLACED ( 2 100 ) N ;
+- BLOCK_13 blk_13 + PLACED ( 115 35 ) N ;
+- BLOCK_14 blk_14 + PLACED ( 115 15 ) N ;
+- BLOCK_15 blk_15 + PLACED ( 131 0 ) N ;
+
+- BLOCK_16 blk_16 + PLACED ( 50 0 ) N ;
+- BLOCK_17 blk_17 + PLACED ( 100 0 ) N ;
+
+- BLOCK_18 blk_18 + PLACED ( 110 100 ) N ;
+- BLOCK_19 blk_19 + PLACED ( 110 115 ) N ;
+- BLOCK_20 blk_20 + PLACED ( 113 130 ) N ;
+- BLOCK_21 blk_21 + PLACED ( 90 130 ) N ;
+- BLOCK_22 blk_22 + PLACED ( 133 100 ) N ;
+- BLOCK_23 blk_23 + PLACED ( 115 70 ) N ;
+
+- BLOCK_24 blk_24 + PLACED ( 105 90 ) N ;
+- BLOCK_25 blk_25 + PLACED ( 100 80 ) N ;
+- BLOCK_26 blk_26 + PLACED ( 130 59 ) N ;
+- BLOCK_27 blk_27 + PLACED ( 40 145 ) N ;
+
+- BLOCK_28 blk_28 + PLACED ( 90 120 ) N ;
+
+- BLOCK_29 blk_29 + PLACED ( 90 100 ) N ;
+
+- BLOCK_30 blk_30 + PLACED ( 140 80 ) N ;
+
+- BLOCK_31 blk_31 + PLACED ( 140 21 ) N ;
+- BLOCK_32 blk_32 + PLACED ( 125 25 ) N ;
+
+END COMPONENTS
+
+END DESIGN

@@ -1,0 +1,8 @@
+NumBlocks 4
+MinAspectRatio 0.5
+MaxAspectRatio 10
+A 300 10
+B 10 600
+C 500 20
+D 20 700
+E 720 123

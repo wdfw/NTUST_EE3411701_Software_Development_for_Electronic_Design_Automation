@@ -1,0 +1,26 @@
+
+1. 專案說明
+	在本次專案中，我們要透過Slincing Tree這個資料結構保存元件的位置，並透過Simulated Annealing (SA)這個啟發式的演算法，
+	不斷通過對Slincing Tree的各種交換操作，改變元件位置，嘗試在限制電路長寬比的情況下最小化電路的總面積。
+2. 程式語言與版本：C++11
+3. 編譯平台：Linux GNU g++
+4. 檔案說明：
+	./src/SlicingTree.hpp: Slicing tree data structure defination.
+	./src/SlicingTree.cpp: Slicing tree data structure.
+	./src/Block.hpp: Block data structure defination.
+	./src/Block.cpp: Block data structure.
+	./src/main.cpp: Implement floorplan with SA and slicing tree.
+	./Makefile: Makefile
+	./readme.txt: 本檔案
+	./report.pdf: 介紹所使用演算法與資料結構
+5. 執行流程
+	1. 進入資料夾 Simulated_Annealing_Floorplan
+	2. 輸入 make 在./bin/產生執行檔 floorplanner
+	3. 執行 floorplanner (執行格式 : ./floorplanner [input file name] [output file name])
+	4. 生成輸出檔案
+6. 顯示與輸出
+	在開始執行時輸出框會顯示Original Area，Original Aspect Ratio，Original Cost，
+	代表初始隨機的放置面積，高寬比與成本
+	執行時會有進度條，執行完成會顯示執行實間，
+	最後產生輸出檔，並在顯示框顯示Optimal Area，Optimal Aspect Ratio，Optimal Cost，
+	代表SA找到最佳結果的放置面積，高寬比與成本。　　
